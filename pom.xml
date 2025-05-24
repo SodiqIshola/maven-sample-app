@@ -84,7 +84,8 @@
 
         <!-- Unit Testing with JUnit -->
         <!-- Purpose: Write and run unit tests.
-        Why needed: Testing is crucial in large applications to ensure stability, catch regressions, and support CI/CD. -->
+        Why needed: Testing is crucial in large applications to ensure stability, catch regressions, and support CI/CD. 
+        Option 1: Explicit Separate Dependencies -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -159,12 +160,4 @@
 
 
 
-
-<!-- ✅ Summary: Role of Each Dependency in a Large App
-Dependency / Plugin	Why It’s Used
-slf4j-api	            Abstracts logging, supports flexibility
-slf4j-simple	        Concrete logging for local/dev
-junit-jupiter-api	    Define test cases
-junit-jupiter-engine	Run test cases
-maven-compiler-plugin	Ensure consistent Java version in builds -->
 
